@@ -1,0 +1,25 @@
+---
+
+
+
+name: includes common data
+description: Testing RESTAPI gets from jsonplaceholder.typicode.com
+
+variables:
+  data:
+    # global datas
+    url: https://jsonplaceholder.typicode.com
+
+    # querydata
+
+    query:
+      name: posts
+      id: 2
+      selector: postId
+      selector_value: 1
+
+
+    check:
+      name: title
+      expected_type: str
+
